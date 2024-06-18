@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&display=swap');
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+nav{
+    font-family:'Crimson+text' , sans-serif;
+}
+nav ul{
+    display:flex;
+    list-style-type: none;
+    height:30px;
+    background-color: black;
+    color: white;
+    align-items:center;
+}
+nav ul li{
+    padding:0px 10px;
+}
+.brand{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px,0;
+}
+.home{
+    text-decoration: none;
+    font-size: large;
+    color: aliceblue;
+}
+.brand img
+{
+    height: 70px;
+    width:60px;
+    padding:0px 0px;
+}
+.container{
+    min-height: 70vh;
+    background-color:black;
+    font-family:'Times New Roman', Times, serif;
+    /* color:black; */
+    display: flex;
+    width: 40%;
+    margin: 30px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    background-size: 600px;
+    background-repeat: no-repeat;
+}
+.buttons
+{
+    margin: 0px;
+    padding: 0px;
+}
+.bottom{
+position:sticky;
+height: 80px;
+background-color: black;
+bottom: 0px;;
+color: white;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+margin: 0px 0;
+}
+.icons{
+    margin-top:14px;
+    cursor: pointer;
+}
+.icons i{
+    cursor: pointer;
+    margin: 0 10px;
+    padding-left: 5vh;
+}
+.brand{
+align-items: center;
+display: flex;
+font-weight: bolder;
+font-size: 1.3rem;
+}
+#myProgressBar{
+width:40%;
+}
+.songItem
+{
+height: 25px;
+display: flex;
+color:black;
+background-color:palevioletred;
+width: 250px;
+justify-content: space-between;
+align-items: center;
+margin: 13px 0;
+border-radius: 18px;
+}
+.songItem img
+{
+    width: 20px;
+    margin: 0 10px;
+    border-radius: 50px;
+    height: 20px;
+}    
+.timestamp{
+    margin:0 10px;
+}
+.timestamp i{
+    margin: 10px;
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 30px;
+}
+.songinfo{
+    left:40vw;
+    position: absolute;
+}
+.songinfo img{
+    opacity:0;
+    margin:0 40vh;
+    transition: opacity 0.3s ease-in;
+}
+#footer{
+    color:white;
+    text-align: center;
+    font-size: small;
+}
