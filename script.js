@@ -8,7 +8,7 @@ let audioElement=new Audio("Yeh Raatein.mp3");
 let songitems=Array.from(document.getElementsByClassName("songItem"));
 const songlist=["Yeh Raatein.mp3","Yeh Raatein.mp3","Pillagali-SenSongsMp3.Co.mp3","Kabhi Tumhe(PagalWorld.com.sb).mp3","Paravaledhu - SenSongsmp3.Co.mp3","Chiru chiru.mp3","Anukoledenadu.mp3"]
 let songs=[
-    {songname:"Yeh raatein",filepath:"Yeh Raatein.mp3",coverpath:"Yeh Raatein.jpeg"},
+    {songname:"Yeh raatein",filepath:"Yeh Raatein.mp3",coverpath:"YR.jpg"},
     {songname:"pillagali",filepath:"Pillagali-SenSongsMp3.Co.mp3",coverpath:"pillagali.jpeg"},
     {songname:"Kabhi tumhe",filepath:"Kabhi Tumhe(PagalWorld.com.sb).mp3",coverpath:"kabhi.jpeg"},
     {songname:"paravaledu",filepath:"Paravaledhu - SenSongsmp3.Co.mp3",coverpath:"paravaledu.jpeg"},
